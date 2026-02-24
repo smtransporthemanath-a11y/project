@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BODY</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--aised section start-->
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2>A<span class="danger">AUTISM</span></h2>
+                </div>
+                <div class="close">
+                    <span class="material-symbols-sharp"> close </span>
+
+                </div>
+            </div>
+            <!--end top-->
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-sharp"> account_circle </span>
+                    <h3>Profile</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-symbols-sharp"> dashboard </span>
+                    <h3>Dashboard</h3>
+                </a>
+
+
+                <a href="#">
+                    <span class="material-symbols-sharp"> calendar_today </span>
+                    <h3>daily activity</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp"> sports_esports </span>
+                    <h3>game</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp"> restaurant </span>
+                    <h3>diet</h3>
+                </a>
+                
+                <a href="#">
+                    <span class="material-symbols-sharp"> report </span>
+                    <h3>report</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp"> settings </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp"> logout </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+
+
+        </aside>
+        <!--aside section end-->
+        <!--main section start-->
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insight">
+                <!--start selling for tracking purpose-->
+                <div class="sails">
+                    <span class="material-symbols-sharp"> trending_up </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total sails</h3>
+                            <h1>₹25,023</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle r="30" cx="40" cy="40"></circle>
+                            </svg>
+                            <div class="number">80%</div>
+                        </div>
+                    </div>
+                    <small>Last 24 hours</small>
+                </div>
+                <!--end selling for tracking purpose-->
+            </div>
+            <!--start creating table-->
+            <div class="recent-sales">
+                <h2>Recent Sales</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ASUS ROG Strix G15</td>
+                            <td>₹1,25,000</td>
+                            <td>Paid</td>
+                            <td class="success">Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Apple MacBook Pro 16-inch</td>
+                            <td>₹2,00,000</td>
+                            <td>Pending</td>
+                            <td class="warning">In Progress</td>
+                        </tr>
+                        <tr>
+                            <td>Dell XPS 13</td>
+                            <td>₹1,50,000</td>
+                            <td>Paid</td>
+                            <td class="success">Completed</td>
+                        </tr>
+                        <tr>
+                            <td>HP Spectre x360</td>
+                            <td>₹1,20,000</td>
+                            <td>Failed</td>
+                            <td class="danger">Cancelled</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <!--end creating table-->
+        </main>
+        <!--main section end-->
+        <!--right section start-->
+        <div class="right">
+            <h1>Right</h1>
+        </div>
+        <!--right section end-->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
